@@ -1,0 +1,54 @@
+[
+    {
+        "cenario": "Cadastro com sucesso ",
+        "nome": "Carlos Silva",
+        "login": "carlossilva",
+        "senha": "Carlos123",
+        "email": "carlos.silva@example.com",
+        "confirmacao_email": "carlos.silva@example.com",
+        "httpcode": 200,
+        "mensagem": "Usuário cadastrado com sucesso!"
+    },
+    {
+        "cenario": "O e-mail já está cadastrado.",
+        "nome": "Carlos Silva",
+        "login": "carlossilva",
+        "senha": "Carlos123",
+        "email": "carlos.silva@example.com",
+        "confirmacao_email": "carlos.silva@example.com",
+        "httpCode": 400,
+        "mensagem": "O e-mail já está cadastrado."
+    },
+    {
+        "cenario": "Os e-mails não coincidem.",
+        "nome": "Carlos Silva1",
+        "login": "carlossilva1",
+        "senha": "Carlos123",
+        "email": "carlos.silva@example.com11",
+        "confirmacao_email": "carlos.silva@example.com1",
+        "httpCode": 400,
+        "mensagem": "Os e-mails não coincidem."
+    },
+    {
+        "cenario": "O login já está cadastrado.",
+        "nome": "Carlos Silva1",
+        "login": "carlossilva1",
+        "senha": "Carlos123",
+        "email": "carlos.silva@example.com11",
+        "confirmacao_email": "carlos.silva@example.com1",
+        "mensagem": "O login já está cadastrado.",
+        "httpCode": 400
+    },
+
+
+    {
+        "cenario": "A senha deve ter pelo menos 6 caracteres, incluindo letras e números, e não pode ser fraca.",
+        "nome": "Carlos Silva1",
+        "login": "carlossilva1",
+        "senha": "Carlos123",
+        "email": "carlos.silva@example.com11",
+        "confirmacao_email": "carlos.silva@example.com1",
+        "mensagem": "A senha deve ter pelo menos 6 caracteres, incluindo letras e números, e não pode ser fraca.",
+        "httpCode": 400
+    }
+]
