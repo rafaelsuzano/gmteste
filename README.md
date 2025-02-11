@@ -1,6 +1,6 @@
 # GMTeste
 
-Este repositório contém um projeto de automação de testes, que inclui um backend em Python e testes de UI com Cypress.
+Este repositório contém um projeto de automação de testes, que inclui um backend em Python e testes de API com Cypress.
 
 ## Pré-requisitos
 
@@ -80,7 +80,8 @@ Passos:
     Preencher o campo "E-mail" com um e-mail válido (exemplo: usuario@example.com).
     Preencher o campo "Confirmação de E-mail" com um e-mail diferente (exemplo: usuario2@example.com).
     Tentar enviar o formulário.
-    Resultado esperado: O sistema deve exibir uma mensagem de erro, como: "Os e-mails não coincidem. Por favor, confirme seu e-mail."
+    Resultado esperado: O sistema deve exibir uma mensagem de erro, como: "Os e-mails não coincidem. 
+    Por favor, confirme seu e-mail."
     
 
 #  Relatórios de Teste
