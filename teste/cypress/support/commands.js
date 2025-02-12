@@ -9,7 +9,16 @@ Cypress.Commands.add('Get_ListaUsuarios', () =>
     })
 )
 
-
+Cypress.Commands.add('Delete_Usuario', (idusuario) =>
+    cy.api({
+        method:'Delete', url:'/usuarios/'+idusuario,
+  
+        headers:{'Content-Type':'application/json',
+        
+        },
+        failOnStatusCode:false
+    })
+)
 
 Cypress.Commands.add('Post_CadastraUsuario', (nome,login,senha,email,confirmacao_email) =>
     cy.api({
