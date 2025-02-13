@@ -86,6 +86,7 @@ Passos:
 
 #  Relatórios de Teste
 ## Relatório de Testes do Cypress
+        /teste/cypress/reports/index.html
 ## Relatório de Testes K6
 
 
